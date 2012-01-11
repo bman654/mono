@@ -716,7 +716,7 @@ version.h: Makefile
 			echo "#define FULL_VERSION \"$$branch/$$version\""; \
 		); \
 	else \
-		echo "#define FULL_VERSION \"tarball\""; \
+		echo "#define FULL_VERSION \"2.10.8.cdis\""; \
 	fi > version.h
 
 # Utility target for patching libtool to speed up linking
